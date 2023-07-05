@@ -33,24 +33,8 @@
             <input type="checkbox" class="form-check-input border-2" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">Gpay</label>
           </div>
-        <button type="submit" class="btn btn-primary ms-4 mt-3" onclick="takevalue()">Submit</button>
+        <button type="submit" class="btn btn-primary ms-4 mt-3"><a href="./table.html" style="color: azure; text-decoration: none;">Submit</a></button>
       </form>
-    <script>
-        function takevalue(){
-          var acc = document.getElementById("number").value;
-          var num = document.getElementById("number").value;
-          var amount = document.getElementById("exampleCheck1").value;
-
-          
-          var user = localStorage.setItem("number",acc);
-          var pass = localStorage.setItem("number",num);
-          var am = localStorage.setItem("exampleCheck1",amount);
-
-
-          var user = localStorage.getElementById("number",acc);
-          var pass = localStorage.getItem("number",num);
-          var am = localStorage.getItem("exampleCheck1",amount);
-        }
     </script>
 </body>
 </html>
